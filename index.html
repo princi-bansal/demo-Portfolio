@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Princi's personal portfolio website.">
+
+    <title>Princi | Student Portfolio</title>
+
+    <!-- Connect the CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Connect JavaScript after HTML is loaded -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Princi<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">
+                        HELLO, WORLD! I'M
+                    </p>
+
+                    <h1>Princi<span>.</span></h1>
+
+                    <h2>First-Year BTech CSE Student</h2>
+
+                    <p class="hero-description">
+                        I am passionate about programming, problem-solving,
+                        web development, and learning new technologies.
+                        I enjoy turning ideas into simple, useful projects
+                        while improving my technical skills every day.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Projects
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <p class="availability">
+                        <span class="status-dot"></span>
+                        Always learning. Always building.
+                    </p>
+                </div>
+
+                <!-- Decorative profile card -->
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="glow"></div>
+
+                    <div class="profile-card">
+                        <div class="card-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="avatar">P</div>
+
+                        <h3>Princi</h3>
+                        <p>BTech CSE Student</p>
+
+
+                        <div class="card-footer">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-hint">
+                Scroll to explore ↓
+            </a>
+        </section>
+
+        <!-- About section -->
+        <section class="section section-alt" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little about my journey and what drives me.</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-symbol" aria-hidden="true">
+                        <span>&lt;/&gt;</span>
+                    </div>
+
+                    <div class="about-text">
+                        <h3>A student with a passion for technology.</h3>
+
+                        <p>
+                            Hi, I'm Princi, a first-year BTech Computer
+                            Science and Engineering student. I am exploring
+                            the world of programming and discovering how
+                            technology can solve real-world problems.
+                        </p>
+
+                        <p>
+                            I am currently building my foundation in C++
+                            and web development. I believe in learning by
+                            doing, practising consistently, and improving
+                            through every project I create.
+                        </p>
+
+                        <p>
+                            My goal is to become a skilled developer,
+                            work on meaningful projects, and keep expanding
+                            my knowledge of computer science.
+                        </p>
+
+                        <div class="about-details">
+                            <div>
+                                <span class="detail-label">Education</span>
+                                <strong>BTech CSE</strong>
+                            </div>
+
+                            <div>
+                                <span class="detail-label">College</span>
+                                <strong>JECRC University</strong>
+                            </div>
+
+                            <div>
+                                <span class="detail-label">Current focus</span>
+                                <strong>Programming & Web Development</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I'M LEARNING</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>
+                        Technologies and abilities I am developing
+                        as a computer science student.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">C++</div>
+                        <h3>C++</h3>
+                        <p>Learning programming fundamentals and writing
+                           basic programs.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Creating the structure and content of web pages.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">#</div>
+                        <h3>CSS</h3>
+                        <p>Designing attractive and responsive web layouts.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Exploring interactive features and web functionality.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">✦</div>
+                        <h3>Problem Solving</h3>
+                        <p>Practising logical thinking and breaking problems
+                           into smaller steps.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I'M WORKING ON</p>
+                    <h2>My <span>Projects</span></h2>
+                    <p>
+                        A collection of beginner-friendly projects
+                        from my learning journey.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-visual visual-cpp">
+                            <span class="visual-code">C++</span>
+                            <span class="visual-symbol">{ }</span>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-number">PROJECT 01</p>
+                            <h3>C++ Basic Programs</h3>
+                            <p>
+                                A collection of beginner programs that
+                                practise variables, conditions, loops,
+                                operators, and basic problem-solving.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>C++</span>
+                                <span>Logic</span>
+                                <span>Basics</span>
+                            </div>
+
+                            <!-- Add your GitHub project URL here -->
+                            <a href="#contact" class="project-link">
+                                View project details →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-portfolio">
+                            <div class="mini-browser">
+                                <div class="mini-dots">● ● ●</div>
+                                <div class="mini-heading">Hello, I'm Princi</div>
+                                <div class="mini-bar"></div>
+                                <div class="mini-bar short"></div>
+                                <div class="mini-button"></div>
+                            </div>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-number">PROJECT 02</p>
+                            <h3>Personal Portfolio Website</h3>
+                            <p>
+                                A responsive personal website showcasing
+                                my introduction, skills, projects, and
+                                contact information.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#home" class="project-link">
+                                Explore this website →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-profile">
+                            <div class="mini-profile">
+                                <div class="mini-avatar">P</div>
+                                <div class="mini-profile-line"></div>
+                                <div class="mini-profile-line small"></div>
+                                <div class="mini-profile-boxes">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-info">
+                            <p class="project-number">PROJECT 03</p>
+                            <h3>Student Profile Webpage</h3>
+                            <p>
+                                A simple profile webpage presenting
+                                student information, skills, and project
+                                links using structured HTML and CSS.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Web Design</span>
+                            </div>
+
+                            <a href="#contact" class="project-link">
+                                View project details →
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="project-note">
+                    Note: These cards describe the projects. Add your
+                    actual GitHub links when your project repositories
+                    are ready.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>
+                        Have a project idea or want to connect?
+                        Send me a message.
+                    </p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <h3>Let's talk about ideas.</h3>
+
+                        <p>
+                            I am interested in connecting with people
+                            who enjoy technology, programming, and
+                            learning new things.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span class="contact-icon">@</span>
+                            <div>
+                                <span class="detail-label">Email</span>
+                                <a href="mailto:YOUR_EMAIL@example.com">
+                                    coding.princi@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text"
+                                   id="name"
+                                   name="name"
+                                   placeholder="Enter your name"
+                                   minlength="2"
+                                   maxlength="80"
+                                   autocomplete="name"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   placeholder="you@example.com"
+                                   maxlength="254"
+                                   autocomplete="email"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea id="message"
+                                      name="message"
+                                      rows="5"
+                                      placeholder="Write your message..."
+                                      minlength="10"
+                                      maxlength="2000"
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary submit-btn">
+                            Validate Message →
+                        </button>
+
+                        <!-- JavaScript displays the validation result here -->
+                        <p id="form-status"
+                           class="form-status"
+                           role="status"
+                           aria-live="polite"></p>
+
+                        <p class="form-note">
+                            Demo form: your message is not emailed or
+                            uploaded anywhere.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Princi<span>.</span></a>
+
+            <p>
+                Designed and built with HTML, CSS, and JavaScript.
+            </p>
+
+            <p class="copyright">
+                © <span id="current-year"></span> Princi. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
